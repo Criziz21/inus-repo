@@ -1,0 +1,194 @@
+/* Gilroy-black - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Gilroy-Black.ttf") format("truetype");
+}
+/* Gilroy-black-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Gilroy";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/Gilroy-BlackItalic.ttf") format("truetype");
+}
+
+/* Gilroy Bold */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Gilroy Bold Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Continue with the other font weights and styles... */
+
+/* Example: Gilroy Extra Bold */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Gilroy Extra Bold Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Gilroy Heavy */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Gilroy Heavy Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Gilroy Light */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Gilroy Light Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Gilroy Medium */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Gilroy Medium Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Gilroy Regular */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gilroy Regular Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Gilroy Semi Bold */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Gilroy Semi Bold Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Gilroy Thin */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Gilroy Thin Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* Gilroy Ultra Light */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Gilroy Ultra Light Italic */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-UltraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Gilroy";
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  background-color: grey;
+}
+
+.wrapper-full {
+  max-width: 1262px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
